@@ -1,0 +1,15 @@
+#include<stdio.h>
+main(){
+
+  float chico=1.50, ze=1.10;
+  int contador=0;
+
+  while(ze<=chico){
+    chico+=0.02;
+    ze+=0.03;
+    contador++;
+  }
+
+  printf("em %d"contador" anos ze sera maior que chico"); 
+
+}
