@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+main(){
+
+  float x1, x2, y1, y2, distancia;
+
+  printf("Por favor digite os valores para x1, x2, y1, y2 respectivamente");
+    scanf("%f %f %f %f", &x1 &x2 &y1 &y2);
+
+  distancia= sqrt((x2-x1)**2+(y2-y1)**2);
+
+  printf("A distancia entre os pontos citados e igual a: %.4f" distancia); 
+
+}
