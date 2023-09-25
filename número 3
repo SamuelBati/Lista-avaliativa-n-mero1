@@ -1,0 +1,34 @@
+#include<stdio.h>
+main(){
+
+  float A, B, C;
+
+  printf("Muito bem, por favor digite um valor para o primeiro lado do triangulo");
+    scanf("%f", &A);
+
+  printf("\nAgora para o segundo lado");
+    scanf("%f", &B);
+
+  printf("\nPor fim o valor do ultimo lado");
+    scanf("%f", &C);
+
+  if(%(C-B)<A<C+B//%(A-B)<C<A+B//%(A-C)<B<A+C){
+
+    printf("\nParabens, com esses lados e possivel fazer um triangulo");
+
+    if(A=B=C){
+      printf("\nAlias, trata se de um triangulo equilatero");
+    }
+    else if(A!=B!=C!&&C!=A){
+      printf("\nPensando bem, um triangulo escaleno");
+    }
+    else if((A=B)!=C//(A=C)!=B//(B=C)!=A){
+      printf("\nUm triangulo isosceles");
+    }
+  }
+
+  else{
+    printf("Sinto Muito. Mas nao e possivel fazer um triangulo com esses lados");
+  }
+
+}
