@@ -24,7 +24,7 @@ main(){
     turma+=media;
   }
 
-  mediaturma= turma/30;
+  mediaturma= turma/contador;
   printf("A media da turma e igual a %.2F", mediaturma);
 
   }
