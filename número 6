@@ -1,0 +1,37 @@
+#include<stdio.h>
+main(){
+
+  float x, y;
+
+  printf("Imagine um plano Cartesiano, agora, por favor, digite um valor para o eixo x e para o eixo y respectivamente");
+    scanf("%f %f", &x &y);
+
+  if(x=0&&y=0){
+    printf("O seu ponto se encontra na origem");
+  }
+
+  else if(x>0&&y>0){
+    printf("O seu ponto esta no quadrante 1");
+  }
+
+  else if(x<0&&y>0){
+    printf("O seu ponto se encontra no quadrante 2");
+  }
+
+  else if(x<0&&y<0){
+    printf("O seu ponto esta no quadrante 3");
+  }
+
+  else if(x>0&&y<0){
+    printf("Seu ponto esta no quadrante 4");
+  }
+
+  else if(x=0&&y>0){
+    printf("Seu ponto se encontra na linha Y");
+  }
+
+  else if(x>0&&y=0){
+    printf("Seu ponto esta na linha X");
+  }
+
+}
