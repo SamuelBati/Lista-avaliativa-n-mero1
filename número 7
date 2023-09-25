@@ -1,0 +1,30 @@
+#include<stdio.h>
+main(){
+
+  float nt1, nt2, nt3, media, turma=0, mediaturma;
+  int contador=0;
+
+  while(contador<=30){
+
+    printf("Por favor digite suas notas da prova um, dois e tres respectivamente");
+      scanf("%f %f %f", &nt1 &nt2 &nt3);
+
+    media= ( n1*2 + n2*4 + n3*3 ) / 10;
+    printf("\nsua media foi igual a: %.2f", media);
+
+    if(media>=7){
+      printf("\nAprovado"):
+    }
+
+    else{
+      printf("\nReprovado");
+    }
+
+    contador++;
+    turma+=media;
+  }
+
+  mediaturma= turma/30;
+  printf("A media da turma e igual a %.2F", mediaturma);
+
+  }
