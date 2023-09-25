@@ -1,0 +1,27 @@
+#include<stdio.h>
+main(){
+
+  float ms, nf, mediaf, prct, medias;
+  int opcao, contador=0,filhostotais, salariototal, nsalariocem=0;
+
+  while(opcao!=2){
+    printf(" Por favor, nos informe, respectivamente, sua media salarial e numero de filhos");
+      scanf("%f %f", &ms &nf);
+    contador++;
+    filhostotais+=nf;
+    salariototal+=ms;
+
+    if(ms<=100){
+      nsalariocem++
+    }
+    printf("deseja cadastrar um novo cidadão? digite 1 para sim, ou 2 para não.");
+      scanf("%d", &opcao);
+  }
+
+  medias= salariototal / contador;
+  mediaf= filhostotais / contador;
+  prct= nsalariocem*100/contador;
+
+  printf(" A media salarial da populacao, assim como media do numero de filhos e posrcentagem de pessoas com salario ate cem reais e respectivamente igual a %.2f %.2f %.2f", medias mediaf prct);
+      
+}
