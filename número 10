@@ -1,0 +1,30 @@
+#include<stdio.h>
+main(){
+
+  int codcidade, numerodeacidentes, numerodecarros, contador=0, contadorRS=0, contadornumerodecarros=0, contadornumerodeacidentes=0;
+  char cidade[2];
+  float mediadeacidentesRS, mediadeveiculos;
+
+  while(contador<=200){
+    printf("Por favor, insira respectivamente o código de sua cidade, o numero de acidentes de transito da regiao, e por fim o numero de carros que voce possui");
+      scanf("%d %d %d", &codcidade &numerodeacidentes &numerodecarros);
+
+    printf("\nAgora por favor insira a sigla de duas letras pertencente a seu estado");
+      fgets(cidade);
+
+    if(cidade=RS){
+      contadorRS++;
+    }
+
+    contador++;
+    contadornumerodecarros+=numerodecarros;
+    contadornumerodeacidentes+=numerodeacidentes;
+  }
+
+  mediadeacidentesRS= contadorRS/contador;
+  mediadeveiculos= contadornumerodecarros/ contador;
+
+  printf("\nA media de acidentes nas cidades do RS e %.2f", mediadeacidentesRS);
+  printf("\nA media de carros nas cidades brasileiras e %.2f", mediadeveiculos);
+
+}
