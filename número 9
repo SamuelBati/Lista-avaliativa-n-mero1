@@ -1,0 +1,43 @@
+#include<stdio.h>
+main(){
+
+  int codgo, cand1=0, cand2=0, cand3=0, cand4=0, nulo5=0, branco6=0, contador=0, opcao;
+
+  printf("A seguir voce podera encontrar o codigo dos candidatos e tambem os codigos de codigo em branco e nulo");
+  printf("\n Candidato-1, Candidato-2, Candidato-3, Candidato-4, Voto Nulo-5, Voto em Branco-6);
+  
+  while(opcao!=0){
+    printf("\n Por favor digite o codigo desejado");
+      scanf("%d", &codgo);
+
+    if(codgo=1){
+      cand1++;
+    }
+    else if(codgo=2){
+      cand2++;
+    }
+    else if(codgo=3){
+      cand3++;
+    }
+    else if(codgo=4){
+      cand4++;
+    }
+    else if(codgo=5){
+      nulo5++;
+    }
+    else if(codgo=6){
+      branco6++;
+    }
+
+    printf("\nGostaria que alguem mais votasse? sim-9, nao-0");
+      scanf("%d", &opcao);
+  }
+
+  printf("\nTotal de votos no candidato 1: %d", cand1);
+  printf("\nTotal de votos no candidato 2: %d", cand2);
+  printf("\nTotal de votos no candidato 3: %d", cand3);
+  printf("\nTotal de votos no candidato 4: %d", cand4);
+  printf("\nTotal de votos nulos: %d", nulo5);
+  printf("\nTotal de votos em branco: %d", branco6);
+
+}
