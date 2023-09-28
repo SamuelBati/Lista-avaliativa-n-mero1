@@ -12,17 +12,17 @@ main(){
   printf("\nPor fim o valor do ultimo lado");
     scanf("%f", &C);
 
-  if(%(C-B)<A<C+B//%(A-B)<C<A+B//%(A-C)<B<A+C){
+  if(%(C-B)<A<C+B;//%(A-B)<C<A+B;//%(A-C)<B<A+C){
 
     printf("\nParabens, com esses lados e possivel fazer um triangulo");
 
     if(A=B=C){
       printf("\nAlias, trata se de um triangulo equilatero");
     }
-    else if(A!=B!=C!&&C!=A){
+    else if(A!=B!=C!;&&C!=A){
       printf("\nPensando bem, um triangulo escaleno");
     }
-    else if((A=B)!=C//(A=C)!=B//(B=C)!=A){
+    else if((A=B)!=C;//(A=C)!=B;//(B=C)!=A){
       printf("\nUm triangulo isosceles");
     }
   }
